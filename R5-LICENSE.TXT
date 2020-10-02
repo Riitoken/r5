@@ -1,0 +1,11 @@
+class           license
+type            GLORYWARE
+ipname          R5
+author          Ray Edward Bornert II
+aka             Riitoken
+date            2013-APR-22 MON
+copyright       2013-2020 Riitoken, All rights reserved
+royalty         Free
+warranty        As is
+rules           https://docs.google.com/document/d/1xAZ-WAHxwBuu1H-LszPGuMQXLryebBYzBdrHzV2Gom0
+endclass
