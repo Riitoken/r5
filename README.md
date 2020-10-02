@@ -4,7 +4,7 @@ THE R5 PARSER
 
 The C programming language provides the single best ASCII string splitter in the history of ASCII string splitters.
 
-   sscanf(line,"%s %s[^\r^\n]s",lval,rval);
+    sscanf(line,"%s %s[^\r^\n]s",lval,rval);
    
 This line of C source code, that has been supported by C since the beginning, will split a line of text into a left value and a right value.  For data organized as (KEY,VALUE) pairs, this parser is all you need to parse a KEY and a VALUE from a single line of text - provided that your KEYs contain no white-space, because white-space is the default delimiter for the C RTL scan functions.
 
@@ -20,16 +20,16 @@ The default official extenstion for an R5 text file is ".r5.txt" , this identifi
 
 Example:
 
-class           dagger
-name            Sting
-owner           Bilbo
-make            Elvish
-forge           Gondolin
-bequeath        Frodo
-special         orc-alarm
-glow            blue
-length          23in
-weight          2lbs
-age             ancient
-endclass
+    class           dagger
+    name            Sting
+    owner           Bilbo
+    make            Elvish
+    forge           Gondolin
+    bequeath        Frodo
+    special         orc-alarm
+    glow            blue
+    length          23in
+    weight          2lbs
+    age             ancient
+    endclass
 
