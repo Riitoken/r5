@@ -9,7 +9,7 @@ copyright       2013-2020 Riitoken, All rights reserved.
 royalty         Free
 warranty        As is
 rules           https://docs.google.com/document/d/1xAZ-WAHxwBuu1H-LszPGuMQXLryebBYzBdrHzV2Gom0
-endclass
+cppsrc          begintext
 */
 
 #include "r5.h"
@@ -178,3 +178,8 @@ int fprint( r5_v& v, FILE* fp )
 } // end function sprint
 
 }; // end namespace r5
+
+/*
+endtext
+endclass
+*/
